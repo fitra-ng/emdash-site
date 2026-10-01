@@ -4,7 +4,6 @@
 	"main": "./src/worker.ts",
 	"compatibility_date": "2026-02-24",
 	"compatibility_flags": ["nodejs_compat"],
-	"EMDASH_SITE_URL": "https://emdash.uniku.ac.id",
 	"d1_databases": [
 		{
 			"binding": "DB",
@@ -23,4 +22,11 @@
 	"triggers": {
 		"crons": ["* * * * *"],
 	},
+}
+{
+  // ...
+  "vars": {
+    "EMDASH_SITE_URL": "https://emdash.uniku.ac.id"
+  },
+  // ...
 }
